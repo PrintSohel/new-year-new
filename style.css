@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    height: 64px;
+    color: #005FAC;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    background: #ffff;
+    border-radius: 5px;
+}
+
+/* banner */
+.banner {
+    text-align: right;
+    color: white;
+    padding: 200px;
+    background-image: url('images/banner/banner.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+.banner p {
+    padding: 25px 0;
+}
+
+.banner h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+/* section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 130px;
+}
+
+.failures {
+    display: flex;
+    align-items: center;
+}
+
+.failure-description {
+    padding-left: 100px;
+}
+
+.failures p,
+h2 {
+    margin-top: 12px;
+}
+
+.failures h2 {
+    font-weight: 700;
+    font-size: 40px
+}
+
+.tick {
+    color: #16D887;
+}
+
+/* my-plans */
+.my-plans-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-plans h2 {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.my-plans div {
+    text-align: center;
+}
+
+/* watch */
+.watch {
+    background-image: url('images/watch.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+.watch h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-shadow: 4px 4px 10px #000000;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    background-color: #000000;
+    color: white;
+    padding: 50px;
+    gap: 500px;
+}
+
+.footer h2 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.footer p{
+    margin-bottom: 20px;
+}
+.form h3{
+    margin: 20px 20px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.form button{
+    margin: 20px 20px;
+}
